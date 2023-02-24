@@ -10,8 +10,8 @@ html {
 
 @font-face {
   font-family: 'Montserrat';
+  font-display: swap;
   src: local("Montserrat Regular"), local("Montserrat-Regular"),
-    url("../fonts/montserrat-regular.woff") format("woff"),
     url("../fonts/montserrat-regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
@@ -19,8 +19,8 @@ html {
 
 @font-face {
   font-family: 'Montserrat';
+  font-display: swap;
   src: local("Montserrat Medium"), local("Montserrat-Medium"),
-    url("../fonts/montserrat-medium.woff") format("woff"),
     url("../fonts/montserrat-medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
@@ -28,8 +28,8 @@ html {
 
 @font-face {
   font-family: 'Montserrat';
+  font-display: swap;
   src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"),
-    url("../fonts/montserrat-semibold.woff") format("woff"),
     url("../fonts/montserrat-semibold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
@@ -37,8 +37,8 @@ html {
 
 @font-face {
   font-family: 'Montserrat';
+  font-display: swap;
   src: local("Montserrat Bold"), local("Montserrat-Bold"),
-    url("../fonts/montserrat-bold.woff") format("woff"),
     url("../fonts/montserrat-bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
@@ -46,8 +46,8 @@ html {
 
 @font-face {
   font-family: 'Montserrat';
+  font-display: swap;
   src: local("Montserrat ExtraBold"), local("Montserrat-ExtraBold"),
-    url("../fonts/montserrat-extrabold.woff") format("woff"),
     url("../fonts/montserrat-extrabold.woff2") format("woff2");
   font-weight: 800;
   font-style: normal;
@@ -215,10 +215,6 @@ body {
   border-bottom: 2px solid var(--orange-dark);
 }
 
-.search {
-
-}
-
 .search svg {
   width: 24px;
   height: 24px;
@@ -368,15 +364,15 @@ body {
 }
 
 .slide1 {
-  background-image: url("../img/slider1.jpg");
+  background-image: url("../img/slider1.webp");
 }
 
 .slide2 {
-  background-image: url("../img/slider2.jpg");
+  background-image: url("../img/slider2.webp");
 }
 
 .slide3 {
-  background-image: url("../img/slider3.jpg");
+  background-image: url("../img/slider3.webp");
 }
 
 .slider-content {
@@ -453,7 +449,7 @@ body {
   position: relative;
   width: calc((100% - (var(--gap))) / 2);
   max-height: 622px;
-  background-image: url("../img/about.jpg");
+  background-image: url("../img/about.webp");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 32px;
@@ -605,19 +601,19 @@ body {
 }
 
 .tab1 {
-  background-image: url("../img/how.jpg");
+  background-image: url("../img/how.webp");
 }
 
 .tab2 {
-  background-image: url("../img/tabs2.jpg");
+  background-image: url("../img/tabs2.webp");
 }
 
 .tab3 {
-  background-image: url("../img/tabs3.jpg");
+  background-image: url("../img/tabs3.webp");
 }
 
 .tab4 {
-  background-image: url("../img/tabs4.jpg");
+  background-image: url("../img/tabs4.webp");
 }
 
 /* faq */
